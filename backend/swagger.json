@@ -62,20 +62,26 @@
         }
       }
     },
-    "/flashcards/id": {
+    "/flashcards/{id}": {
       "get": {
         "description": "",
         "produces": [
           "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
         ],
         "responses": {
           "200": {
             "description": "OK"
           }
         }
-      }
-    },
-    "/flashcards/{id}": {
+      },
       "put": {
         "description": "",
         "parameters": [

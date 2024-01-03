@@ -9,7 +9,7 @@ const getAll = async (req, res, next) => {
     });
 };
 
-const getSingle = async (req, res, net) => {
+const getSingle = async (req, res, next) => {
     const cardId = new ObjectId(req.params.id);
     const result = await mongodb
         .getDb()
