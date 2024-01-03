@@ -5,7 +5,7 @@
     "description": "Library of Flashcards",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "flashcards-w643.com",
   "basePath": "/",
   "schemes": [
     "https"

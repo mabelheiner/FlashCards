@@ -5,7 +5,7 @@ const doc = {
         title: 'Flashcard API',
         description: 'Library of Flashcards'
     },
-    host: 'localhost:8080',
+    host: 'flashcards-w643.com',
     schemes: ['https']
 };
 
